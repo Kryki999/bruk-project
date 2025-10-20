@@ -76,7 +76,7 @@ const gallery = [
   "/visual1.jpeg",
   "/visual2.jpeg",
   "/visual3.jpeg",
-  "/placeholder.jpg",
+  "/dom4.jpeg",
 ];
 
 export default function HomePage() {
