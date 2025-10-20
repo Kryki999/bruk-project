@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import LightboxGallery from "@/components/LightboxGallery";
+import ReviewsSection from "@/components/ReviewsSection";
 
 const PHONE = "514 255 516";
 const EMAIL = "biuro@davix.com.pl";
@@ -328,7 +329,7 @@ export default function HomePage() {
       </section>
 
       {/* REFERENCJE */}
-
+      <ReviewsSection />
       {/* KONTAKT */}
       <section id="contact" className="py-24 bg-gray-950 text-white">
         <div className="max-w-6xl mx-auto px-6">
